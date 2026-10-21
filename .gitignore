@@ -35,3 +35,6 @@ jvmtest-out/
 
 # 黄金测试向量由 tools/export_android.py 生成，体积大且可复现
 tools/golden/*.json
+
+# 截图识别的抓图缓存（含桌面截图，可能带隐私内容）
+.ddz_cache/
